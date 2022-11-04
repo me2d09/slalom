@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>Lesní slalom 2021</title>
+    <title>Lesní slalom {{ page.year }}</title>
     <meta name="description" content="">
 
     <!-- The compiled CSS file -->
@@ -32,10 +32,13 @@
             <header class="align--center pt3 pb2">
                 <div class="container">
                     <h1 class="mb3 reveal-on-scroll is-revealing">Lesní slalom</h1>
-                    <h2 class="mb3 reveal-on-scroll is-revealing">46. ročník</h2>
-                    <p class="mb1">13. listopadu 2021</p>
-                    <p class="mb1">🕘 prezentace <b>9:30</b>, start 10:00</p>
+                    <h2 class="mb3 reveal-on-scroll is-revealing">{{ page.rocnik }}. ročník</h2>
+                    <p class="mb1">{% if page.future != true %}se konal {% endif %}{{ page.datum }}</p>
+                    {% if page.future %}<p class="mb1">🕘 prezentace <b>9:30</b>, start 10:00</p>
                     <p><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
+                    {% else %}
+                    <p class="mb1"><a href="#results">Výsledky</a>  <a href="#results">Report</a>   Fotky</p>
+                    {% endif %}
                 </div>
             </header>
 
@@ -49,14 +52,17 @@
                         <div class="grid-row">
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                                 <h2>ℹ️</h2>
-                                <p>Lesní slalom je tradiční běžecký řevnický závod založený v roce 1976. Závodníci běží dvoukolově po trati vyznačené mezi stromy s kopce dolů, výsledný čas za obě kola se sčítá. Trať je každý rok trochu odlišná, nejrychlejší
+                                <p>Lesní slalom je tradiční běžecký řevnický závod založený v roce 1976. 
+                                    Závodníci běží dvoukolově po trati vyznačené mezi stromy s kopce dolů, 
+                                    výsledný čas za obě kola se sčítá. Trať je každý rok trochu odlišná, nejrychlejší
                                     běžci a běžkyně ji zdolají pod 20 vteřin.
                                 </p>
                             </div>
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                                 <h2>🗺️</h2>
-                                <p> Vzhledem ke kůrovcové kalamitě a z toho důvodu nebezpečné situaci v místě běžného pořádání závodu jsme se nakonec rozhodli změnit umístění a posunuli jsme se přímo <a href="https://en.mapy.cz/s/hetelupuda">nad Vodárnu</a>.
-                                    Pozor - <b>neplatí</b> v tisku avizované místo nad Lesním Divadlem, závod bude nad vodárnou (konec ulice Sportovní)!
+                                <p> Vzhledem ke kůrovcové kalamitě a z toho důvodu nebezpečné situaci v místě běžného pořádání
+                                    závodu jsme se nakonec rozhodli změnit umístění a posunuli jsme se přímo 
+                                    <a href="https://en.mapy.cz/s/hetelupuda">nad Vodárnu</a>.
                                 </p>
                             </div>
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
@@ -71,20 +77,24 @@
                                 </ul>
                             </div>
                         </div>
-
                     </section>
+                    {% unless page.future %}
+                    <section class="pt3 pb3 align--center">
+                        <h3 class="mb2">Výsledky</h3>
+                        
+                        
+                    </section>
+                    {% endunless  %}
 
                     <section class="pt3 pb3 align--center">
                         <ul class="no-bullets list--inline mb0">
                             <li class="m1 block-on-mobile">
                                 Na akci se můžete přihlásit na
-                                <a href="https://www.facebook.com/events/574815290462237" class="link"><img class="icon" src="img/facebook.svg" alt="Facebook"> Facebooku</a>.
+                                <a href="{{ page.fblink }}" class="link"><img class="icon" src="img/facebook.svg" alt="Facebook"> Facebooku</a>.
                             </li>
                         </ul>
                     </section>
 
-
-                    <!-- Sponsors -->
                     <section class="pt3 pb3 align--center">
                         <h3 class="mb2">Naši partneři</h3>
                         <a href="https://alza.cz/"><img class="m1" src="img/alza.svg" alt="Alza.cz" style="height:50px"></a>
