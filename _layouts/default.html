@@ -12,12 +12,12 @@
     <meta name="description" content="">
 
     <!-- The compiled CSS file -->
-    <link rel="stylesheet" href="css/production.css">
+    <link rel="stylesheet" href="/css/production.css">
 
     <!-- Web fonts -->
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
 
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
 
 </head>
 
@@ -28,91 +28,12 @@
     <div class="page-border">
         <div class="bg--white">
 
-            <!-- Header -->
-            <header class="align--center pt3 pb2">
-                <div class="container">
-                    <h1 class="mb3 reveal-on-scroll is-revealing">Lesní slalom</h1>
-                    <h2 class="mb3 reveal-on-scroll is-revealing">{{ page.rocnik }}. ročník</h2>
-                    <p class="mb1">{% if page.future != true %}se konal {% endif %}{{ page.datum }}</p>
-                    {% if page.future %}<p class="mb1">🕘 prezentace <b>9:30</b>, start 10:00</p>
-                    <p><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
-                    {% else %}
-                    <p class="mb1"><a href="#results">Výsledky</a>  <a href="#results">Report</a>   Fotky</p>
-                    {% endif %}
-                </div>
-            </header>
-
-            <!-- Body -->
-            <main>
-                <div class="container">
-
-                    <!-- Info -->
-                    <section class="pt2 pb3">
-                        <img class="mb3" src="img/slalom.png" alt="Lesní slalom">
-                        <div class="grid-row">
-                            <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <h2>ℹ️</h2>
-                                <p>Lesní slalom je tradiční běžecký řevnický závod založený v roce 1976. 
-                                    Závodníci běží dvoukolově po trati vyznačené mezi stromy s kopce dolů, 
-                                    výsledný čas za obě kola se sčítá. Trať je každý rok trochu odlišná, nejrychlejší
-                                    běžci a běžkyně ji zdolají pod 20 vteřin.
-                                </p>
-                            </div>
-                            <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <h2>🗺️</h2>
-                                <p> Vzhledem ke kůrovcové kalamitě a z toho důvodu nebezpečné situaci v místě běžného pořádání
-                                    závodu jsme se nakonec rozhodli změnit umístění a posunuli jsme se přímo 
-                                    <a href="https://en.mapy.cz/s/hetelupuda">nad Vodárnu</a>.
-                                </p>
-                            </div>
-                            <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <h2>🏃</h2>
-                                <p>Letos se závodí v těchto kategoriích:</p>
-                                <ul style="padding-left:25px">
-                                    <li>0-5 let (+ doprovod)</li>
-                                    <li>6-8 let (smíšené)</li>
-                                    <li>9-11 let (smíšené)</li>
-                                    <li>12-15 let kluci/holky</li>
-                                    <li>16-134,5 let muži/ženy</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    {% unless page.future %}
-                    <section class="pt3 pb3 align--center">
-                        <h3 class="mb2">Výsledky</h3>
-                        
-                        
-                    </section>
-                    {% endunless  %}
-
-                    <section class="pt3 pb3 align--center">
-                        <ul class="no-bullets list--inline mb0">
-                            <li class="m1 block-on-mobile">
-                                Na akci se můžete přihlásit na
-                                <a href="{{ page.fblink }}" class="link"><img class="icon" src="img/facebook.svg" alt="Facebook"> Facebooku</a>.
-                            </li>
-                        </ul>
-                    </section>
-
-                    <section class="pt3 pb3 align--center">
-                        <h3 class="mb2">Naši partneři</h3>
-                        <a href="https://alza.cz/"><img class="m1" src="img/alza.svg" alt="Alza.cz" style="height:50px"></a>
-                        <a href="https://www.pivovar-revnice.cz/"><img class="m1" src="img/pivovar-logo.png" alt="Pivovar Řevnice" style="height:100px"></a>
-                        <a href="https://www.prosport.cz/"><img class="m1" src="img/prosport.png" alt="Prosport" style="height:45px"></a>
-                        <a href="https://www.ekokom.cz/"><img class="m1" src="img/ekokom.svg" alt="Eko-kom" style="height:35px"></a>
-                        <a href="https://www.revnice.cz/" style="text-decoration: none; color: black;"><img class="m1" src="img/revnice.png" alt="Město Řevnice" style="height:65px"> <b>Město Řevnice</b></a>
-                    </section>
-
-                </div>
-            </main>
+            {{ content }}
 
             <!-- Footer -->
             <footer class="mt2 pb3 align--center">
-
                 <p class="mt1 small text--gray">Design by <a href="https://www.papayatemplates.com" class="link">Papaya</a> under CC BY-SA 4.0, modifications by me2d09, proudly hosted with ❤️ at <a href="https://github.com/me2d09/slalom">Github</a>.</p>
             </footer>
-
         </div>
     </div>
 
@@ -120,7 +41,7 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <!-- The compiled JavaScript file -->
-    <script src="js/production.js"></script>
+    <script src="/js/production.js"></script>
 
 </body>
 

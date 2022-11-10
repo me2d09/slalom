@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: race
 year: 2022
 future: true
 rocnik: 47

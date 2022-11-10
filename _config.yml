@@ -1,1 +1,13 @@
 title: Lesní Slalom
+
+collections:
+  races:
+    output: true
+    permalink: /archiv/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: races
+    values:
+      layout: race
