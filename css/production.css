@@ -1682,3 +1682,25 @@ hr {
     }
 }
 
+
+table.theme-bootstrap {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table.theme-bootstrap tr td, table.theme-bootstrap tr th { 
+    text-align: right; 
+    padding: 10px; 
+}
+table.theme-bootstrap tr:not(:first-child) { 
+    border-top: 1px solid #ddd;
+}
+table.theme-bootstrap th { 
+    border-bottom: 1px solid #888;
+}
+table.theme-bootstrap tr td:first-child, table.theme-bootstrap tr th:first-child {
+    text-align: left;
+}
+table.theme-bootstrap tr td:nth-child(2), table.theme-bootstrap tr th:nth-child(2) { 
+    text-align: left;
+}

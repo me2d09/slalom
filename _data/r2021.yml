@@ -1,0 +1,201 @@
+- category: Muži
+  racers:
+    - name: Jan Ferdinand Polášek
+      round1: 40.6
+      round2: 40.3
+    - name: Petr Čermák
+      round1: 37.1
+      round2: 37.2
+    - name: Pavel Kubásek
+      round1: 39.7
+      round2: 43.4
+    - name: Ondřej Sem
+      round1: 40.1
+      round2: 39.5
+    - name: Jakub Šafránek
+      round1: 41.1
+      round2: 39.3
+    - name: Jan Cígler
+      round1: 45.2
+      round2: 40.5
+    - name: Štěpán Zrostlík
+      round1: 37.1
+      round2: 37.2
+    - name: Michal Plzák
+      round1: 40.8
+      round2: 41.6
+    - name: Filip Kment
+      round1: 42.8
+      round2: 39.2
+    - name: Ondřej Skripnik
+      round1: 39.0
+      round2: 38.3
+    - name: Martin Pávek
+      round1: 36.4
+      round2: 38.3
+    - name: Petr Holý
+      round1: 47.6
+      round2: 46.4
+    - name: Jirka Buchal
+      round1: 43.3
+      round2: 44.6
+    - name: Ondřej Procházka
+      round1: DNS
+      round2: DNS
+- category: Ženy
+  racers:
+    - name: Martina Bochenková
+      round1: 43.2
+      round2: 43.2
+    - name: Tereza Šimková
+      round1: 52.3
+      round2: DNF
+    - name: Eva Buková
+      round1: 54.10
+      round2: DNF
+    - name: Barbora Cíglerová
+      round1: 46.5
+      round2: 45.3
+    - name: Lenka Košťálová
+      round1: 47.2
+      round2: 46.1
+    - name: Terezie Bartoňová
+      round1: 42.5
+      round2: 42.5
+    - name: Petra Rosická
+      round1: 43.6
+      round2: 44.2
+- category: Kluci 12-15 let
+  racers:
+    - name: Fabián Svoboda
+      round1: 41.3
+      round2: 38.1
+    - name: Adam Nahi
+      round1: 44.6
+      round2: 56.6
+    - name: Matouš Skripnik
+      round1: 36.3
+      round2: 37.5
+    - name: Eliáš Kosák
+      round1: 36.7
+      round2: 47.2
+    - name: Nikola Skripnik
+      round1: 45.3
+      round2: 39.2
+    - name: Lukáš Buchal
+      round1: 40.8
+      round2: 42.3
+    - name: Vilém Kment
+      round1: 43.4
+      round2: 41.7
+- category: Holky 12-15 let
+  racers:
+    - name: Adriana Svobodová
+      round1: 45.4
+      round2: 45.0
+    - name: Viktorie Cíglerová
+      round1: 42.3
+      round2: 43.3
+    - name: Alžběta Cíglerová
+      round1: 39.6
+      round2: 38.5
+    - name: Julie Leinweberová
+      round1: 44.0
+      round2: 42.6
+- category: Děti 9-11 let
+  racers:
+    - name: Teodor Bartoň
+      round1: 44.2
+      round2: 42.5
+    - name: Ema Šlechtová
+      round1: 52.2
+      round2: 52.2
+    - name: Filip Cígler
+      round1: 39.7
+      round2: 39.3
+    - name: Tonda Šafrata
+      round1: 50.1
+      round2: 53.8
+- category: Děti 6-8 let
+  racers:
+    - name: Jakub Čermák
+      round1: 67.8
+      round2: 59.4
+    - name: Michal Šafránek
+      round1: 52.4
+      round2: 47.8
+    - name: Sofie Šlechtová
+      round1: 75.4
+      round2: 65.6
+    - name: Sebastien Kalina
+      round1: 65
+      round2: 65
+    - name: Lukáš Forejt
+      round1: 55.9
+      round2: 54.3
+    - name: Max Plzák
+      round1: 60.2
+      round2: 56.0
+    - name: Vojtěch Kment
+      round1: 64.9
+      round2: 64.7
+    - name: Mariana Kubásková
+      round1: 50.9
+      round2: 72.6
+    - name: Zuzka Leinweberová
+      round1: 66.2
+      round2: 58.8
+    - name: Kilián Skripnik
+      round1: 57.6
+      round2: 53.6
+    - name: Nela Sofie Košťálová
+      round1: 50.7
+      round2: 52.1
+    - name: Alžběta Rošická
+      round1: 87.7
+      round2: 81.0
+    - name: Anna Rošická
+      round1: 71.4
+      round2: 64.5
+- category: Děti do 5ti let
+  racers:
+    - name: Jáchym Polášek
+      round1: 63.3
+      round2: 65.1
+    - name: Lucie Čermáková
+      round1: 44.3
+      round2: 41.1
+    - name: Žofie Šimková
+      round1: 49.6
+      round2: 46.4
+    - name: Emílie Šimková
+      round1: 68.9
+      round2: 60.9
+    - name: Markéta Šafránková
+      round1: 30.8
+      round2: 31.7
+    - name: Milada Šafránková
+      round1: 75.1
+      round2: 80.6
+    - name: Přemysl Indra
+      round1: 38.3
+      round2: 39.9
+    - name: Aleš Zrostlík
+      round1: 55.3
+      round2: 58.0
+    - name: Teo Plzák
+      round1: 32.9
+      round2: 30.0
+    - name: Zuzana Krejcárková
+      round1: 41.8
+      round2: 40.8
+    - name: Johanka Rošická
+      round1: 52.9
+      round2: 44.6
+    - name: Laura Procházková
+      round1: 39.0
+      round2: 44.4
+    - name: Mikuláš Rošický
+      round1: 66.3
+      round2: 42.9
+    

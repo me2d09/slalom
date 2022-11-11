@@ -27,6 +27,48 @@ layout: default
         {% if page.results %}
         <section class="pt3 pb3 align--center">
             <h3 class="mb2">Výsledky</h3>
+            {% for c in site.data[page.results] %}
+            Kategorie: {{ c.category }}
+            {% assign times = "" | split: ',' %}
+            {% for r in c.racers %}
+                {% assign soucet = r.round1 | plus: r.round2 %}
+                {% assign test = r.round1 | plus: 0 %}
+                {% if test == 0 %}
+                    {% assign soucet = 9999 %}
+                {% endif %}
+                {% assign test = r.round2 | plus: 0 %}
+                {% if test == 0 %}
+                    {% assign soucet = 9999 %}
+                {% endif %}
+                {% unless times contains soucet %}
+                    {% assign times = times | push: soucet %} 
+                {% endunless %}
+            {% endfor %}
+            {% assign times = times | sort %} 
+            <table class="theme-bootstrap mb2">
+                <tr><th></th><th>Jméno</th><th>1. kolo</th><th>2. kolo</th><th>Celkem</th></tr>
+                {% assign poradi = 1 %}
+            {% for t in times %}
+              {% assign pocet = 0 %}
+              {% for r in c.racers %}
+              {% assign celkem = r.round1 | plus: r.round2 %}
+                {% assign test = r.round1 | plus: 0 %}
+                {% if test == 0 %}
+                    {% assign celkem = 9999 %}
+                {% endif %}
+                {% assign test = r.round2 | plus: 0 %}
+                {% if test == 0 %}
+                    {% assign celkem = 9999 %}
+                {% endif %}
+                {% if celkem == t %}
+                <tr><td>{{ poradi }}.</td><td>{{ r.name }}</td><td>{{ r.round1 }}</td><td>{{ r.round2 }}</td><td>{% if t < 9999 %}{{ t }}{% else %}DSQ{% endif %}</td></tr>
+                {% assign pocet = pocet | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+              {% assign poradi = poradi | plus: pocet %}
+            {% endfor %}
+            </table>
+            {% endfor %}
         </section>
         {% endif %}
 
