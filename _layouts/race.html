@@ -7,10 +7,12 @@ layout: default
         <h1 class="mb3 reveal-on-scroll is-revealing">Lesní slalom</h1>
         <h2 class="mb3 reveal-on-scroll is-revealing">{{ page.rocnik }}. ročník</h2>
         <p class="mb1">{% if page.future != true %}se konal {% endif %}{{ page.datum }}</p>
-        {% if page.future %}<p class="mb1">🕘 prezentace <b>9:30</b>, start 10:00</p>
+        {% if page.future %}<p>🕘 prezentace <b>9:30</b>, start 10:00</p>
         <p><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
         {% else %}
-        <p class="mb1">
+        {% if page.winner %}<p class="mt1">Absolutním vítězem se stal {{ page.winner }} s časem {{ page.wintime }}s. 
+            {% if page.fwinner %}<br>Absolutní vítězkou se s časem {{ page.fwintime }}s stala {{page.fwinner}}.{% endif %}</p>{% endif %}
+        <p class="mb1 mt1">
             {% if page.letakpdf %}<a href="/assets/{{ page.letakpdf  }}">Leták</a>{% endif %}
             {% if page.resultspdf %}<a href="/assets/{{ page.resultspdf  }}">Výsledky</a>{% elsif page.results %}<a href="#results">Výsledky</a>{% endif %}
             {% if page.reportpdf %}<a href="/assets/{{ page.reportpdf  }}">Report</a>{% endif %}
@@ -61,7 +63,7 @@ layout: default
                     {% assign celkem = 9999 %}
                 {% endif %}
                 {% if celkem == t %}
-                <tr{% if r.winner == "m" %} class="bg--secondary-color"{% elsif r.winner == "f" %} class="bg--tertiary-color"{% endif %}><td>{{ poradi }}.</td><td>{{ r.name }}</td><td>{{ r.round1 }}</td><td>{{ r.round2 }}</td><td>{% if t < 9999 %}{{ t }}{% else %}DSQ{% endif %}</td></tr>
+                <tr{% if poradi == 1 %} class="bold{% if r.winner == "m" %} bg--secondary-color{% elsif r.winner == "f" %} bg--tertiary-color{% endif %}"{% endif %}><td>{{ poradi }}.</td><td>{{ r.name }}</td><td>{{ r.round1 }}</td><td>{{ r.round2 }}</td><td>{% if t < 9999 %}{{ t }}{% else %}DSQ{% endif %}</td></tr>
                 {% assign pocet = pocet | plus: 1 %}
                 {% endif %}
               {% endfor %}
