@@ -1,0 +1,193 @@
+- category: Muži
+  racers:
+    - name: Petr Holý
+      round1: 54.1
+      round2: 44.5
+    - name: Petr Čermák
+      round1: 36.1
+      round2: 37.3
+    - name: Pavel Kubásek
+      round1: 40.1
+      round2: 40.5
+    - name: Jakub Šafránek
+      round1: 36.8
+      round2: 36.0
+    - name: Jan Kukačka
+      round1: 40.3
+      round2: 42.2
+    - name: Šimon Knýbl
+      round1: 37.8
+      round2: 39.1
+    - name: Petr Slavík
+      round1: 47.6
+      round2: 41.1
+    - name: Nikola Skripnik
+      round1: 39.4
+      round2: 35.8
+    - name: Ondřej Skripnik
+      round1: 37.2
+      round2: 38.5
+    - name: Josef Hůlka
+      round1: 47.8
+      round2: 47.5
+    - name: Mirek Černý
+      round1: 40.6
+      round2: 39.2
+    - name: Štěpán Zrostlík
+      round1: 38.3
+      round2: 38.0
+- category: Ženy
+  racers:
+    - name: Renata Kukačková
+      round1: 43.1
+      round2: 49.8
+    - name: Adriana Svobodová
+      round1: 39.2
+      round2: 49.0
+    - name: Lenka Slavíková
+      round1: 55.0
+      round2: 47.4
+    - name: Barbora Cíglerová
+      round1: 47.8
+      round2: 43.3
+    - name: Viktorie Cíglerová
+      round1: 45.8
+      round2: 40.6
+- category: Kluci 12-15 let
+  racers:
+    - name: Matouš Skripnik
+      round1: 35.0
+      round2: 33.7
+      winner: m
+    - name: Filip Cígler
+      round1: 40.3
+      round2: 39.2
+- category: Holky 12-15 let
+  racers:
+    - name: Nikola Kubásková
+      round1: 41.5
+      round2: 38.9
+    - name: Julie Leinweberová
+      round1: 44.9
+      round2: 40.0
+    - name: Julie Slavíková
+      round1: 42.7
+      round2: 41.9
+    - name: Alžběta Cíglerová
+      round1: 38.0
+      round2: 36.5
+      winner: f
+- category: Děti 9-11 let
+  racers:
+    - name: Matěj Štička
+      round1: 62.5
+      round2: 61.8
+    - name: Jakub Štička
+      round1: 48.0
+      round2: 49.2
+    - name: Mariana Kubásková
+      round1: 52.4
+      round2: 47.0
+    - name: Jana Kukačková
+      round1: 46.8
+      round2: 46.1
+    - name: Jan Šuster
+      round1: 52.9
+      round2: 49.5
+    - name: Anna Knýbelová
+      round1: 42.6
+      round2: 41.5
+    - name: Johanka Slavíková
+      round1: 55.2
+      round2: 60.6
+    - name: Barbora Třísková
+      round1: 40.2
+      round2: 44.3
+    - name: Josef Hůlka
+      round1: 58.3
+      round2: 51.3
+    - name: Kilián Skripnik
+      round1: 44.5
+      round2: 47.6
+    - name: František Poc
+      round1: 54.4
+      round2: 47.7
+    - name: Tomáš Jisl
+      round1: 51.7
+      round2: 49.5
+- category: Děti 6-8 let
+  racers:
+    - name: Jakub Čermák
+      round1: 62.3
+      round2: 50.3
+    - name: Michal Vincenc
+      round1: 49.6
+      round2: 52.2
+    - name: Dominik Hnát
+      round1: 53.8
+      round2: 58.9
+    - name: Markéta Šafránková
+      round1: 58.4
+      round2: 56.0
+    - name: Michal Šafránek
+      round1: 46.7
+      round2: 43.2
+    - name: Vojta Kment
+      round1: 67.2
+      round2: 55.9
+    - name: Janek Kukačka
+      round1: 52.4
+      round2: 49.9
+    - name: Jan Chaloupka
+      round1: 60.6
+      round2: 52.3
+    - name: Matěj Chaloupka
+      round1: 82.2
+      round2: 69.2
+    - name: Vojta Černý
+      round1: 66.4
+      round2: 61.5
+    - name: Marek Zeman
+      round1: 89.7
+      round2: 75.2
+- category: Děti do 5ti let
+  racers:
+    - name: Lucie Čermáková
+      round1: 43.0
+      round2: 44.1
+    - name: Milada Šafránková
+      round1: 77.5
+      round2: 66.7
+    - name: Viktorie Zrostlíková
+      round1: 159.9
+      round2: 94.6
+    - name: Aleš Zrostlík
+      round1: 50.8
+      round2: 44.3
+    - name: Přemysl Indra
+      round1: 35.6
+      round2: 33.0
+    - name: Ema Chaloupková
+      round1: 52.2
+      round2: 39.6
+    - name: Justýna Černá
+      round1: 68.7
+      round2: 50.0
+    - name: Emma Zemanová
+      round1: 50.8
+      round2: 45.4
+    - name: Zuzka Krejcárková
+      round1: 35.7
+      round2: 34.5
+    - name: Eduard Baxa
+      round1: 43.3
+      round2: 37.6
+    - name: Martin Baxa
+      round1: 72.5
+      round2: 71.2
+    - name: Matyáš Krejcárek
+      round1: 50.2
+      round2: 47.4
+    - name: Anežka Fojtů
+      round1: 51.2
+      round2: 44.3

@@ -61,7 +61,7 @@ layout: default
                     {% assign celkem = 9999 %}
                 {% endif %}
                 {% if celkem == t %}
-                <tr><td>{{ poradi }}.</td><td>{{ r.name }}</td><td>{{ r.round1 }}</td><td>{{ r.round2 }}</td><td>{% if t < 9999 %}{{ t }}{% else %}DSQ{% endif %}</td></tr>
+                <tr{% if r.winner == "m" %} class="bg--secondary-color"{% elsif r.winner == "f" %} class="bg--tertiary-color"{% endif %}><td>{{ poradi }}.</td><td>{{ r.name }}</td><td>{{ r.round1 }}</td><td>{{ r.round2 }}</td><td>{% if t < 9999 %}{{ t }}{% else %}DSQ{% endif %}</td></tr>
                 {% assign pocet = pocet | plus: 1 %}
                 {% endif %}
               {% endfor %}
