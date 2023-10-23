@@ -1,14 +1,14 @@
 ---
 layout: race
-year: 2022
-future: false
-rocnik: 47
-datum: "12. listopadu 2022"
-fblink: https://www.facebook.com/events/642970267159897
-winner: Matouš Skripnik
-wintime: 68.70
-fwinner: Alžběta Cíglerová
-fwintime: 74.5
-results: r2022
+year: 2023
+future: true
+rocnik: 48
+datum: "11. listopadu 2023"
+fblink: https://www.facebook.com/events/1034706864225179/
+winner: 
+wintime: 
+fwinner: 
+fwintime: 
+results: 
 ---
 Hello
