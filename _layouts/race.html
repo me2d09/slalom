@@ -109,16 +109,16 @@ layout: default
                 </div>
                 <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                     <h2>🗺️</h2>
-                    <p> Vzhledem ke kůrovcové kalamitě a z toho důvodu nebezpečné situaci v místě běžného pořádání
-                        závodu jsme se nakonec rozhodli změnit umístění a posunuli jsme se přímo 
-                        <a href="https://en.mapy.cz/s/hetelupuda">nad Vodárnu</a>.
+                    <p>Od 46. ročníku se závod koná na novém místě - 
+                        <a href="https://en.mapy.cz/s/hetelupuda">nad řevnickou Vodárnou</a>. 
+                        Doporučujeme dorazit pěšky, případně auta nechat u dětského hřiště a k vodárně dojít.
                     </p>
                 </div>
                 <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
                     <h2>🏃</h2>
                     <p>Letos se závodí v těchto kategoriích:</p>
                     <ul style="padding-left:25px">
-                        <li>0-5 let (+ doprovod)</li>
+                        <li>0-5 let (+ doprovod, kratší trať)</li>
                         <li>6-8 let (smíšené)</li>
                         <li>9-11 let (smíšené)</li>
                         <li>12-15 let kluci/holky</li>
@@ -136,16 +136,16 @@ layout: default
                 </li>
             </ul>
         </section>
-
-        <section class="pt3 pb3 align--center">
-            <h3 class="mb2">Naši partneři</h3>
-            <a href="https://alza.cz/"><img class="m1" src="img/alza.svg" alt="Alza.cz" style="height:50px"></a>
-            <a href="https://www.pivovar-revnice.cz/"><img class="m1" src="img/pivovar-logo.png" alt="Pivovar Řevnice" style="height:100px"></a>
-            <a href="https://www.prosport.cz/"><img class="m1" src="img/prosport.png" alt="Prosport" style="height:45px"></a>
-            <a href="https://www.ekokom.cz/"><img class="m1" src="img/ekokom.svg" alt="Eko-kom" style="height:35px"></a>
-            <a href="https://www.revnice.cz/" style="text-decoration: none; color: black;"><img class="m1" src="img/revnice.png" alt="Město Řevnice" style="height:65px"> <b>Město Řevnice</b></a>
-        </section>
-
     {% endunless  %}  
+    {% if page.partner %}
+        <section class="pt3 pb3 align--center">
+            <h3 class="mb2">{% if page.future %}Naši partneři{% else %}Partnery tohoto ročníku byli{% endif %}</h3>
+            {% if page.partner contains 'alza' %}<a href="https://alza.cz/"><img class="m1" src="/img/alza.svg" alt="Alza.cz" style="height:50px"></a>{% endif %}
+            {% if page.partner contains 'pivovar' %}<a href="https://www.pivovar-revnice.cz/"><img class="m1" src="/img/pivovar-logo.png" alt="Pivovar Řevnice" style="height:100px"></a>{% endif %}
+            {% if page.partner contains 'prosport' %}<a href="https://www.prosport.cz/"><img class="m1" src="/img/prosport.png" alt="Prosport" style="height:45px"></a>{% endif %}
+            {% if page.partner contains 'ekokom' %}<a href="https://www.ekokom.cz/"><img class="m1" src="/img/ekokom.svg" alt="Eko-kom" style="height:35px"></a>{% endif %}
+            {% if page.partner contains 'revnice' %}<a href="https://www.revnice.cz/" style="text-decoration: none; color: black;"><img class="m1" src="/img/revnice.png" alt="Město Řevnice" style="height:65px"> <b>Město Řevnice</b></a>{% endif %}
+        </section>
+    {% endif %}
     </div>
 </main>

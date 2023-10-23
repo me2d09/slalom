@@ -10,5 +10,10 @@ wintime:
 fwinner: 
 fwintime: 
 results: 
+partner:
+  - pivovar
+  - prosport
+  - ekokom
+  - revnice
 ---
 Hello
