@@ -14,6 +14,7 @@ partner:
   - pivovar
   - prosport
   - ekokom
+  - nsa
   - revnice
 ---
 Hello
