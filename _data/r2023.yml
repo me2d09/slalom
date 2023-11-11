@@ -1,0 +1,185 @@
+- category: Muži
+  racers:
+    - name: Petr Holý
+      round1: 49.6
+      round2: 49.3
+    - name: Petr Čermák
+      round1: 39.2
+      round2: 38.7
+    - name: Matouš Skripnik
+      round1: 35.4
+      round2: 37.2
+    - name: Albert Mravec
+      round1: 44.6
+      round2: 43.7
+    - name: Eliáš Kosák
+      round1: 36.9
+      round2: 36.7
+    - name: Ondřej Šimerka
+      round1: 43.8
+      round2: 41.1
+    - name: Albert Svoboda
+      round1: 35.1
+      round2: 34.4
+    - name: Ondřej Skripnik
+      round1: 41.4
+      round2: 38.9
+    - name: Pavel Astl
+      round1: 42.3
+      round2: 43.5
+    - name: Ondřej Sem
+      round1: 44.1
+      round2: 45.7
+    - name: Štěpán Zrostlík
+      round1: 41.2
+      round2: 41.5
+    - name: Filip Kment
+      round1: 45.5
+      round2: dns
+    - name: Nikola Skripnik
+      round1: 39.3
+      round2: 39
+- category: Ženy
+  racers:
+    - name: Hana Uhlíková
+      round1: 45.6
+      round2: 48.5
+    - name: Adriana Svobodová
+      round1: 43.2
+      round2: 44.6
+    - name: Eva Zrostlíková
+      round1: 45.8
+      round2: 46.7
+    - name: Barbora Cíglerová
+      round1: 44
+      round2: 44.7
+    - name: Viktorie Cíglerová
+      round1: 42.9
+      round2: 39.6
+   - name: Julie Leinweberová
+      round1: 45.3
+      round2: 45.7
+- category: Kluci 12-15 let
+  racers:
+    - name: Jan Šuster
+      round1: 46.7
+      round2: 50.9
+    - name: Filip Cígler
+      round1: 37.2
+      round2: 38.3
+   - name: Vilém Kment
+      round1: 44.4
+      round2: 45.7
+- category: Holky 12-15 let
+  racers:
+    - name: Nikola Kubásková
+      round1: 48.7
+      round2: 40
+    - name: Anna Knýbelová
+      round1: 39.1
+      round2: 43.1
+    - name: Viky Nováková
+      round1: 46.7
+      round2: 45.8
+    - name: Alžběta Cíglerová
+      round1: 39.8
+      round2: 37.4
+    - category: Děti 9-11 let
+  racers:
+    - name: Ondřej Brabenec
+      round1: 42.7
+      round2: 43.3
+    - name: Jakub Čermák
+      round1: 51.5
+      round2: 51.3
+    - name: Jakub Šuster
+      round1: 56.9
+      round2: 46.9
+    - name: Michal Šafránek
+      round1: 47.0
+      round2: 42.9
+    - name: Valentýna Nováková
+      round1: 43.3
+      round2: 41.5
+    - name: Josefína Holovská
+      round1: 50.5
+      round2: 55.4
+    - name: Johanka Slavíková
+      round1: 48.6
+      round2: 51.1
+    - name: Mariana Kubásková
+      round1: 40.0
+      round2: 46.7
+    - name: Tomáš Uhlík
+      round1: 49.2
+      round2: 58.4
+    - name: Kilián Skripnik
+      round1: 42.1
+      round2: 43.4
+    - name: Kuba Šafrata
+      round1: 55.8
+      round2: 53
+    - name: Tonda Šafrata
+      round1: 53.3
+      round2: 53.2
+    - name: Bára Třísková
+      round1: 42.1
+      round2: 40.4  
+    - name: Vojta Beneš
+      round1: 65.1
+      round2: 65
+- category: Děti 6-8 let
+  racers:
+    - name: Josefína Brabcová
+      round1: 28.3
+      round2: 29.4
+    - name: Anna David
+      round1: 51.3
+      round2: 44.3
+    - name: Karel Uhlík
+      round1: 42.1
+      round2: 38.8
+    - name: Markéta Šafránková
+      round1: 58.4
+      round2: 56.0
+    - name: Vojtěch Kment
+      round1: 25.9
+      round2: 24.7
+    - name: Ema Chvojková
+      round1: 59
+      round2: 53.7
+    - name: Viky Astlová
+      round1: 48.5
+      round2: 44
+- category: Děti do 5ti let
+  racers:
+    - name: Aleš Zrostlík
+      round1: 46.9
+      round2: 44
+    - name: Lucie Čermáková
+      round1: 36.3
+      round2: 45.6
+    - name: Viktorie Zrostlíková
+      round1: 87.6
+      round2: 70
+    - name: Milada Šafránková
+      round1: 48.9
+      round2: 42.2
+    - name: Přemysl Indra
+      round1: 35.6
+      round2: 33.0
+    - name: Jonatán Skripnik
+      round1: 65.5
+      round2: 42.9
+    - name: Hana Kmentová
+      round1: 35.4
+      round2: 34
+    - name: Ema Kmentová
+      round1: 33.5
+      round2: 33.5
+    - name: Nora Chvojková
+      round1: 49.9
+      round2: 52.4
+    - name: Květoslava Benešová
+      round1: 39.5
+      round2: dns
