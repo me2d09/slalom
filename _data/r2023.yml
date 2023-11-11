@@ -21,6 +21,7 @@
     - name: Albert Svoboda
       round1: 35.1
       round2: 34.4
+      winner: m
     - name: Ondřej Skripnik
       round1: 41.4
       round2: 38.9
@@ -82,6 +83,7 @@
       round1: 46.7
       round2: 45.8
     - name: Alžběta Cíglerová
+      winner: f
       round1: 39.8
       round2: 37.4
 - category: Děti 9-11 let
