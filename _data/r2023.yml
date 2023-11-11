@@ -56,7 +56,7 @@
     - name: Viktorie Cíglerová
       round1: 42.9
       round2: 39.6
-   - name: Julie Leinweberová
+    - name: Julie Leinweberová
       round1: 45.3
       round2: 45.7
 - category: Kluci 12-15 let
@@ -67,7 +67,7 @@
     - name: Filip Cígler
       round1: 37.2
       round2: 38.3
-   - name: Vilém Kment
+    - name: Vilém Kment
       round1: 44.4
       round2: 45.7
 - category: Holky 12-15 let
@@ -84,7 +84,7 @@
     - name: Alžběta Cíglerová
       round1: 39.8
       round2: 37.4
-    - category: Děti 9-11 let
+- category: Děti 9-11 let
   racers:
     - name: Ondřej Brabenec
       round1: 42.7
