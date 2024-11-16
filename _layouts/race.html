@@ -5,13 +5,25 @@ layout: default
 <header class="align--center pt3 pb1">
     <div class="container">
         <h1 class="mb3 reveal-on-scroll is-revealing">Lesní slalom</h1>
-        <h2 class="mb3 reveal-on-scroll is-revealing">{{ page.rocnik }}. ročník</h2>
-        <p class="mb1">{% if page.future != true %}se konal {% endif %}{{ page.datum }}</p>
+        <h2 class="mb3 reveal-on-scroll is-revealing">{% if page.rocnik == 50 %}Jubilejní {% endif %}{{ page.rocnik }}. ročník</h2>
+        <p class="mb1">{% if page.future != true %}se konal {% else %}se bude konat {% endif %}{{ page.datum }}</p>
         {% if page.future %}<p>🕘 prezentace <b>9:30</b>, start 10:00</p>
         <p><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
+        {% if page.rocnik == 50 %}
+        <p class="mt1">Od odpoledne až do nedělního rána vás čekají oslavy 50. ročníku.<br>Více informací doplníme později.</p>
+        {% endif %}
         {% else %}
-        {% if page.winner %}<p class="mt1">Absolutním vítězem se stal {{ page.winner }} s časem {{ page.wintime }}s. 
-            {% if page.fwinner %}<br>Absolutní vítězkou se s časem {{ page.fwintime }}s stala {{page.fwinner}}.{% endif %}</p>{% endif %}
+        {% if page.winner %}
+          {% if page.fwinner %}
+            <p class="mt1">Absolutním vítězem se stal {{ page.winner }} s časem {{ page.wintime }}s. 
+            <br>Nejrychlejší závodnicí byla {{page.fwinner}} s časem {{ page.fwintime }}s.</p>
+          {% elsif page.mwinner %}
+            <p class="mt1">Absolutním vítězem se stala {{ page.winner }} s časem {{ page.wintime }}s. 
+            <br>Nejrychlejší mužský čas {{ page.mwintime }}s zaběhl {{page.mwinner}}.</p>
+          {% else %}
+            <p class="mt1">Absolutním vítězem se stal {{ page.winner }} s časem {{ page.wintime }}s.</p>
+          {% endif %}
+        {% endif %}
         <p class="mb1 mt1">
             {% if page.letakpdf %}<a href="/assets/{{ page.letakpdf  }}">Leták</a>{% endif %}
             {% if page.resultspdf %}<a href="/assets/{{ page.resultspdf  }}">Výsledky</a>{% elsif page.results %}<a href="#results">Výsledky</a>{% endif %}
@@ -19,7 +31,7 @@ layout: default
             {% if page.fotky %}<a href="#fotky">Fotky</a>{% endif %}
         </p>
         {% endif %}
-        <p class="mt1"><a href="/archiv">🆕 archiv závodů 🆕</a></p>
+        <p class="mt1">Výsledky starších ročníků naleznete v <a href="/archiv">archivu závodů.</a></p>
     </div>
 </header>
 <!-- Body -->

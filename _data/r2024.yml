@@ -1,0 +1,139 @@
+- category: Muži
+  racers:
+    - name: Petr Holý
+      round1: 48.3
+      round2: 45.3
+    - name: Petr Čermák
+      round1: 36.1
+      round2: 38.7
+    - name: Pavel Kubásek
+      round1: 36.9
+      round2: 36.0
+    - name: Vojtěch Pinkava
+      round1: 38.7
+      round2: 38.1
+    - name: Ondřej Skripnik
+      round1: 36.3
+      round2: 35.9
+    - name: Ondřej Sem
+      round1: 39.9
+      round2: 37.5
+    - name: Roman CHvojka
+      round1: 42.5
+      round2: 40.3
+    - name: Pavel Beneš
+      round1: 50.3
+      round2: 48.8
+- category: Ženy
+  racers:
+    - name: Adriana Svobodová
+      round1: 38.6
+      round2: 34.8
+    - name: Viktorie Cíglerová
+      round1: 39.2
+      round2: 38.5
+    - name: Renata Semová
+      round1: 76.2
+      round2: 58.9
+    - name: Eva Kalvodová
+      round1: 53.4
+      round2: 50.6
+- category: Kluci 12-15 let
+  racers:
+    - name: Antonín Šafrata
+      round1: 39.3
+      round2: 40.7
+    - name: Filip Cígler
+      round1: 35.1
+      round2: 35.3
+      winner: m
+    - name: Tadeáš Beneš
+      round1: 37.5
+      round2: 35.0
+- category: Holky 12-15 let
+  racers:
+    - name: Anna Knýbelová
+      round1: 37.0
+      round2: 36.7
+    - name: Alžběta Cíglerová
+      round1: 37.8
+      round2: 33.9
+    - name: Nikola Kubásková
+      round1: 35.9
+      round2: 33.8
+      winner: f
+    - name: Ludmila Benešová
+      round1: 40.8
+      round2: 37.8
+    - name: Evelína Bolinová
+      round1: 41.3
+      round2: 39.6
+- category: Děti 9-11 let
+  racers:
+    - name: Jakub Čermák
+      round1: 41.0
+      round2: 43.4
+    - name: Mariana Kubásková
+      round1: 41.8
+      round2: 38.3
+    - name: Pepča Třešňáková
+      round1: 51.4
+      round2: 46.2
+    - name: Vojta Kment
+      round1: 41.7
+      round2: 40.2
+    - name: Kilián Skripnik
+      round1: 36.8
+      round2: 36.8
+    - name: Sebastien Kalina
+      round1: 47.2
+      round2: 45.0
+    - name: Filip Sem
+      round1: 50.3
+      round2: 49.6
+    - name: Vojtěch Beneš
+      round1: 46.0
+      round2: 41.8
+    - name: Lukáš Beneš
+      round1: 49.9
+      round2: 37.6
+- category: Děti 6-8 let
+  racers:
+    - name: Markéta Šafránková
+      round1: 45.5
+      round2: 47.0
+    - name: Ema Chaloupková
+      round1: 60.7
+      round2: 64.7
+    - name: Hedvika Kalvodová
+      round1: 54.9
+      round2: 51.8
+    - name: Květa Benešová
+      round1: 74.4
+      round2: 61.5
+    - name: Ela Skripniková
+      round1: 61.2
+      round2: 47.9
+- category: Děti do 5ti let
+  racers:
+    - name: Samuel Čermák
+      round1: 45.5
+      round2: 44.5
+    - name: Milada Šafránková
+      round1: 35.4
+      round2: 34.3
+    - name: Ester Honkýšová
+      round1: 40.3
+      round2: 50.8
+    - name: David Kalvoda
+      round1: 44.2
+      round2: 48.3
+    - name: Jonatán Skripnik
+      round1: 32.5
+      round2: 32.9
+    - name: Kryštof Sem
+      round1: 36.7
+      round2: 41.5
+    - name: Nora Chvojková
+      round1: 41.7
+      round2: 42.1

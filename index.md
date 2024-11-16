@@ -1,9 +1,9 @@
 ---
 layout: race
-year: 2024
+year: 2025
 future: true
-rocnik: 49
-datum: "16. listopadu 2024"
+rocnik: 50
+datum: "15. listopadu 2025"
 fblink: https://www.facebook.com/events/1052335842865354/
 winner: 
 wintime: 
