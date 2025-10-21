@@ -4,7 +4,7 @@ year: 2025
 future: true
 rocnik: 50
 datum: "15. listopadu 2025"
-fblink: https://www.facebook.com/events/1052335842865354/
+fblink: https://www.facebook.com/events/426358910527825/
 winner: 
 wintime: 
 fwinner: 
