@@ -12,6 +12,8 @@ fwintime:
 results: 
 partner:
   - pivovar
+  - prosport
+  - metronomy
   - nsa
   - revnice
 ---
