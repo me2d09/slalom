@@ -23,10 +23,10 @@ memo: |
 
   **Program:**
   - Výstava fotek a výsledkových listin
-  - 19:00 promítání dokumentárního filmu z 14. ročníku
+  - 19:00 promítání dokumentárního filmu ze 14. ročníku
   - 20:00 - 22:00 živá hudba
 
   {: .highlight }
-  Z důvodu omezené kapacity je třeba si [rezervovat místa zde](https://pretix.eu/neptun/slalom/).
+  Z důvodu omezené kapacity si prosím [rezervujte místa zde](https://pretix.eu/neptun/slalom/).
 ---
 Hello
