@@ -8,16 +8,11 @@ layout: default
         <h2 class="mb3 reveal-on-scroll is-revealing">{% if page.rocnik == 50 %}Jubilejní {% endif %}{{ page.rocnik }}. ročník</h2>
         <p class="mb1">{% if page.future != true %}se konal {% else %}se bude konat {% endif %}{{ page.datum }}</p>
         {% if page.future %}<p>🕘 prezentace <b>9:30</b>, start 10:00</p>
-        <p><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
-        {% if page.rocnik == 50 %}
-        <p class="mt1">Od <b>18:00</b> se koná oslava 50 let Lesního slalomu:<br>
-            <b>Místo:</b> Dřevák/sklad13 (Pod Lipami 1280, Řevnice)<br>
-            <b>Program:</b><br>
-            Výstava fotek a výsledkových listin<br>
-            19:00 promítání dokumentárního filmu z 14. ročníku<br>
-            20:00 - 22:00 živá hudba<br>
-        </p>
-        <p class="mt1">Z důvodu omezené kapacity je třeba si <a href="https://pretix.eu/neptun/slalom/">rezervovat místa zde</a>.
+        <p class="mb1"><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
+        {% if page.memo %}
+        <div class="memo">
+            {{ page.memo | markdownify }}
+        </div>
         {% endif %}
         {% else %}
         {% if page.winner %}

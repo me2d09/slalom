@@ -1704,3 +1704,31 @@ table.theme-bootstrap tr td:first-child, table.theme-bootstrap tr th:first-child
 table.theme-bootstrap tr td:nth-child(2), table.theme-bootstrap tr th:nth-child(2) { 
     text-align: left;
 }
+
+.memo {
+  border: 1px solid #000;     
+  background-color: #D4AF8F;  
+  padding: 0.6rem 1rem;        
+  border-radius: 4px;
+  text-align: left;
+}
+.memo .highlight {
+  border: 1px solid #000;     
+  background-color: #fff;  
+  padding: 0.6rem 1rem;        
+  border-radius: 4px;          
+}
+
+.memo ul {
+  list-style: none;      
+  padding-left: 20px;    
+  margin-left: 0;        
+}
+
+.memo li {
+  margin-bottom: 0.3rem;  
+}
+
+.memo p + p {
+  margin-top: .8rem;
+}
