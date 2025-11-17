@@ -42,7 +42,7 @@ layout: default
     <div class="container">  
     {% unless page.future %}
         {% if page.results %}
-        <section class="pt3 pb3 align--center">
+        <section class="pt3 pb3 align--center" id="results">
             <h3 class="mb2">Výsledky</h3>
             {% for c in site.data[page.results] %}
             Kategorie: {{ c.category }}
