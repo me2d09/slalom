@@ -28,7 +28,8 @@ layout: default
         {% endif %}
         <p class="mb1 mt1">
             {% if page.letakpdf %}<a href="/assets/{{ page.letakpdf  }}">Leták</a>{% endif %}
-            {% if page.resultspdf %}<a href="/assets/{{ page.resultspdf  }}">Výsledky</a>{% elsif page.results %}<a href="#results">Výsledky</a>{% endif %}
+            {% if page.resultspdf %}<a href="/assets/{{ page.resultspdf  }}">Výsledky (PDF)</a>{% endif %}
+            {% if page.results %}<a href="#results">Výsledky</a>{% endif %}
             {% if page.reportpdf %}<a href="/assets/{{ page.reportpdf  }}">Report</a>{% endif %}
             {% if page.fotky %}<a href="#fotky">Fotky</a>{% endif %}
         </p>

@@ -9,6 +9,7 @@ winner: Matouš Skripnik
 wintime: 60.8
 fwinner: Martina Bochenková
 fwintime: 69.6
+resultspdf: 2020/r50-vysledky.pdf
 results: r2025
 partner:
   - pivovar
