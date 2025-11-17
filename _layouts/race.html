@@ -154,6 +154,7 @@ layout: default
     {% if page.partner %}
         <section class="pt3 pb3 align--center">
             <h3 class="mb2">{% if page.future %}Naši partneři{% else %}Partnery tohoto ročníku byli{% endif %}</h3>
+            {% if page.partner contains 'kvelektro' %}<a href="https://www.kvelektro.cz/"><img class="m1" src="/img/kvelektro.svg" alt="K&V ELEKTRO" style="height:50px"></a>{% endif %}
             {% if page.partner contains 'alza' %}<a href="https://alza.cz/"><img class="m1" src="/img/alza.svg" alt="Alza.cz" style="height:50px"></a>{% endif %}
             {% if page.partner contains 'pivovar' %}<a href="https://www.pivovar-revnice.cz/"><img class="m1" src="/img/pivovar.png" alt="Pivovar Řevnice" style="height:100px"></a>{% endif %}
             {% if page.partner contains 'prosport' %}<a href="https://www.prosport.cz/"><img class="m1" src="/img/prosport.png" alt="Prosport" style="height:45px"></a>{% endif %}
