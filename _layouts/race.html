@@ -9,12 +9,13 @@ layout: default
         <p class="mb1">{% if page.future != true %}se konal {% else %}se bude konat {% endif %}{{ page.datum }}</p>
         {% if page.future %}<p>🕘 prezentace <b>9:30</b>, start 10:00</p>
         <p class="mb1"><a href="https://en.mapy.cz/s/hetelupuda">🗺️ Nad <b>Vodárnou</b></a>, Řevnice</p>
+        {% endif %}
         {% if page.memo %}
         <div class="memo">
             {{ page.memo | markdownify }}
         </div>
         {% endif %}
-        {% else %}
+        {% if page.future != true %}
         {% if page.winner %}
           {% if page.fwinner %}
             <p class="mt1">Absolutním vítězem se stal {{ page.winner }} s časem {{ page.wintime }}s. 
